@@ -9,4 +9,4 @@ Service Mesh is not a buzzword! It can do the following-
 - A/B Blue-Green or geography-based release, canary deployment
 - Network security, ingress,  etc
 
-** "The service mesh brings benefits by acting as a single source of data collection about inter-service communication and traffic in and out of the microservices ecosystem." **
+**"The service mesh brings benefits by acting as a single source of data collection about inter-service communication and traffic in and out of the microservices ecosystem."**
