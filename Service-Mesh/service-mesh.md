@@ -10,3 +10,7 @@ Service Mesh is not a buzzword! It can do the following-
 - Network security, ingress,  etc
 
 **"The service mesh brings benefits by acting as a single source of data collection about inter-service communication and traffic in and out of the microservices ecosystem."**
+
+
+
+https://kubernetes.io/blog/2019/08/06/opa-gatekeeper-policy-and-governance-for-kubernetes/
