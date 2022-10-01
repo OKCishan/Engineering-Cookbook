@@ -1,0 +1,26 @@
+TLS (Transport Layer Security) :  
+encrypts communication between client & server. 
+Exchanges symmetric keys using a key exchange algorithm. So every message is encrypted before sending,
+so it is not a plain text anymore and no one can modify.
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+When we establish TCP connection, followed by TLS handshake, 
+then server comes back with a certificate saying, as backend server I'm configured to ask for your(client) certificate,
+and complete this handshake.
+
+mTLS :: additionally asks for client certificate.
+
+The server will verify this certificate provided by client against some store (using domain name etc).
+mTLS will be rejected if client certificate is rejected or server certificate is rejected.
+
+Advantages:
+1. If some phished and got my password/API key, mTLS will prevent, since they will have to present client certificate. Client trust is extreme level security.
+2. Microservices - a microservice server, can mention the services that can connect to it via API gateway access.
+3. To add a new service, you need to add it to search store & make client service also trust.
+
+Disadvantages:
+1. 
